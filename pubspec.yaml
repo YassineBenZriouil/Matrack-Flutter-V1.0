@@ -1,0 +1,28 @@
+name: matrack_flutter_v1_0
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+    sdk: ^3.8.1
+
+dependencies:
+    flutter:
+        sdk: flutter
+    provider: ^6.0.0
+    camera: ^0.10.6
+    google_ml_kit: 0.20.0
+    google_mlkit_smart_reply: ^0.13.0
+    flutter_secure_storage: ^8.1.0
+    http: ^1.1.0
+    gsheets: ^0.5.0
+    flutter_local_notifications: 19.3.0
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    flutter_lints: ^5.0.0
+
+flutter:
+    uses-material-design: true
